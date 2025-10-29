@@ -9,7 +9,7 @@
 ';
 
 
-@import "jekyll-theme-chirpy";}
+@import "jekyll-theme-chirpy";
 
 /* ==========================
    Techno Glow — DARK ONLY
@@ -37,7 +37,7 @@ body { color: var(--tg-text); }
 a { color: var(--tg-blue); }
 a:hover { color: var(--tg-purple); }
 
-/* Cards/Surfaces used by Chirpy */
+/* Cards/Surfaces */
 .card, .post, .post-content, .panel, .toc, .sidebar, .pager {
   background: var(--tg-card);
   border: 1px solid var(--tg-border);
@@ -55,7 +55,7 @@ pre, code, .highlight {
 }
 pre code { background: transparent; }
 
-/* Buttons and pagination */
+/* Buttons */
 .btn, .page-item .page-link {
   color: #fff;
   border: 1px solid var(--tg-border);
@@ -81,7 +81,7 @@ pre code { background: transparent; }
   color: var(--tg-text);
 }
 
-/* Tag pills (for categories/tags in posts/lists) */
+/* Tags */
 .post-tag, .tag, .label {
   display: inline-flex;
   align-items: center;
@@ -96,4 +96,8 @@ pre code { background: transparent; }
 }
 
 /* Footer */
-.site-footer { color: var(--tg-muted); border-top: 1px solid var(--tg-border); background: var(--tg-card); } 
+.site-footer {
+  color: var(--tg-muted);
+  border-top: 1px solid var(--tg-border);
+  background: var(--tg-card);
+}
