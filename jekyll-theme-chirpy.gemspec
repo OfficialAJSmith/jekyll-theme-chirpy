@@ -32,7 +32,7 @@ Gem::Specification.new do |spec|
   spec.add_runtime_dependency "jekyll-sitemap", "~> 1.4"
   spec.add_runtime_dependency "jekyll-include-cache", "~> 0.2"
 
-end
+
 ---
 # Only the main Sass file needs front matter
 ---
@@ -169,3 +169,4 @@ a:focus, button:focus, .btn:focus, input:focus, textarea:focus {
   color: #fff;
 }
 .header-wrapper a, .site-header a, .topbar a { color: #fff; }
+end
