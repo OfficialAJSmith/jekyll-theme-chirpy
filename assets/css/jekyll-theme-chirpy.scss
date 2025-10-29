@@ -8,18 +8,12 @@
 {%- endif -%}
 ';
 
-/* append your custom style below */
----
-# Only the main Sass file needs front matter
----
-
-/*
  * Chirpy Techno Glow — DARK MODE ONLY override
  * Drop this file at: assets/css/jekyll-theme-chirpy.scss
  * This version removes light palettes and forces a consistent dark look.
  */
 
-@import "jekyll-theme-chirpy";
+@import "jekyll-theme-chirpy"{
 
 /* ==========================
    DARK PALETTE (Techno Glow)
