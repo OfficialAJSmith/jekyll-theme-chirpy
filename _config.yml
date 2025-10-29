@@ -1,10 +1,10 @@
-remote_theme: cotes2020/jekyll-theme-chirpy
+theme: jekyll-theme-chirpy
 plugins:
-  - jekyll-remote-theme
   - jekyll-include-cache
   - jekyll-feed
   - jekyll-seo-tag
 theme_mode: dark
+
 
 # The Site Configuration
 
