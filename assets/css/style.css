@@ -1,0 +1,46 @@
+---
+# Only the main Sass file needs front matter
+---
+
+
+@import url('jekyll-theme-chirpy.css');
+
+
+/* ===== Techno Glow — DARK ONLY overrides (same content you already use) ===== */
+[data-theme="dark"] {
+  --tg-blue:   #4A90E2;
+  --tg-purple: #9D4EDD;
+  --tg-aqua:   #4DD0E1;
+  --tg-bg:     #1B1D29;
+  --tg-card:   #232538;
+  --tg-text:   #E8E9F3;
+  --tg-muted:  #B8BCD9;
+  --tg-border: #313553;
+
+  color-scheme: dark;
+  background: var(--tg-bg) !important;
+
+  .mode-toggle, .theme-toggle, [data-toggle="mode"] { display: none !important; }
+  &, body { color: var(--tg-text); }
+  a { color: var(--tg-blue); } a:hover { color: var(--tg-purple); }
+  .card, .post, .post-content, .panel, .toc, .sidebar, .pager {
+    background: var(--tg-card); border: 1px solid var(--tg-border);
+    box-shadow: 0 10px 25px rgba(0,0,0,0.35);
+  }
+  .toc .nav-link, .post-meta, .post-tail, .post-desc { color: var(--tg-muted); }
+  pre, code, .highlight { background: #171A2A; border: 1px solid var(--tg-border); color: var(--tg-text); }
+  pre code { background: transparent; }
+  .btn, .page-item .page-link {
+    color: #fff; border: 1px solid var(--tg-border);
+    background: linear-gradient(90deg, var(--tg-blue), var(--tg-purple));
+  }
+  .btn:hover, .page-item .page-link:hover { filter: brightness(0.95); transform: translateY(-1px); }
+  .btn-primary, .btn-primary:visited {
+    background: linear-gradient(135deg, var(--tg-blue), var(--tg-purple)); color:#fff; border:none;
+    box-shadow: 0 8px 20px rgba(74,144,226,0.22);
+  }
+  #search-input, .search-input, input[type="search"] { border:1px solid var(--tg-border); background:transparent; color:var(--tg-text); }
+  .post-tag, .tag, .label { display:inline-flex; gap:6px; padding:2px 10px; border-radius:999px; font-size:.75rem; font-weight:700; border:none; background:rgba(77,208,225,.26); color:#C2F3F7; }
+  .site-footer { color: var(--tg-muted); border-top:1px solid var(--tg-border); background: var(--tg-card); }
+  .site-footer a { color: var(--tg-blue); }
+}
